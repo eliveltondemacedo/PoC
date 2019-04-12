@@ -1,6 +1,3 @@
-
-Este exemplo pode ser usado para desenvolver o Authorization Server e o Microservice usando o JWT Token. Este exemplo explica como funciona a autenticação e a autorização. Tem dois projetos maven "Auth" e "Customer". O projeto compartilha uma chave secreta comum.
-
 ## Fluxo
 1. Cliente autenticar credenciais de login com o Auth Service, se as credenciais de login estiverem corretas, ele irá gerar o Token JWT e enviá-lo de volta ao cliente no cabeçalho, bem como na resposta, por isso estamos cuidando da Autenticação.
 
