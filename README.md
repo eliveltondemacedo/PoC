@@ -3,8 +3,6 @@
 
 2. O mesmo token JWT que precisamos enviar em cada solicitação para acessar microsserviços, cada microsserviço validará o token e também cuidará da Autorização.
 
-! [texto alternativo] (https://github.com/kuldeepsingh99/authorization-authentication/blob/master/images/AuthFlow.png "Auth Flow")
-
 # Auth: - recursos de serviço #
 
 Este serviço valida as credenciais do usuário e gera o token JWT
